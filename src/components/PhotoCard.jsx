@@ -1,4 +1,5 @@
 import React from 'react'
+import Like from './Like'
 import './styles/PhotoCard.css'
 
 const PhotoCard = ({character, handleClick}) => {
@@ -15,7 +16,7 @@ const PhotoCard = ({character, handleClick}) => {
                 <p>Rover: {character.rover.name}</p>
                 <p>Status: {character.rover.status}</p>
                 <p>Launch Date: {character.rover.launch_date}</p>
-                <a onClick={() => handleClick(character)}>Like</a>
+                <div className='button' onClick={() => handleClick(character)}><Like/></div>
                 </div>
              </div>
             </article>
