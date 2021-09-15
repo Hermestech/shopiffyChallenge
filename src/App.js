@@ -1,9 +1,9 @@
-import { Photos } from "./components/Photos";
+import Home from "./components/Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Photos />
+      <Home />
     </div>
   );
 }
