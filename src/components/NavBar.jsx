@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <header className="header">
             <img className="header__img" src={logo} alt= 'logo'/>
-                  
+              
         </header>
     )
 }

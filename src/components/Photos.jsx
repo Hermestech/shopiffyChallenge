@@ -44,12 +44,14 @@ const Photos = () => {
               characters && characters.map(character =>
                 <PhotoCard handleClick={handleClick} key={character.id} character={character}/>)
             }
-
-              {favorites.favorites.map(favorite => (
+            
+        
+        {favorites.favorites.map(favorite => (
                 <li key={favorite.id}>
                     {favorite.camera.name}
                 </li>
-            ))}
+         ))}
+           
             
         </section>
     )

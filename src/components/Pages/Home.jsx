@@ -1,14 +1,15 @@
 import React from 'react'
-
+import Background from '../Background'
 import NavBar from '../NavBar'
-import { Photos } from "../Photos";
+import AnotherPhotos from '../AnotherPhotos'
+
 
 
 const Home = () => {
     return (
         <>
-         <NavBar/>
-         <Photos/>
+        <NavBar/>
+        <AnotherPhotos/>
         </>
     )
 }

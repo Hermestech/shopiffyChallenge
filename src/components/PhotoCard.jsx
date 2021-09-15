@@ -2,7 +2,7 @@ import React from 'react'
 import Like from './Like'
 import './styles/PhotoCard.css'
 
-const PhotoCard = ({character, handleClick}) => {
+const PhotoCard = ({photo}) => {
     return (
         
         <section className='container'>
@@ -10,13 +10,13 @@ const PhotoCard = ({character, handleClick}) => {
             <article className='card'>
              <div className='box'>
                 <div className='content'>
-                <img src={character.img_src} alt="" />
-                <h2>{character.camera.name}</h2>                
-                <p>Date: {character.earth_date}</p>
-                <p>Rover: {character.rover.name}</p>
-                <p>Status: {character.rover.status}</p>
-                <p>Launch Date: {character.rover.launch_date}</p>
-                <div className='button' onClick={() => handleClick(character)}><Like/></div>
+                <img src={photo.img_src} alt="" />
+                <h2>{photo.camera.name}</h2>                
+                <p>Date: {photo.earth_date}</p>
+                <p>Rover: {photo.rover.name}</p>
+                <p>Status: {photo.rover.status}</p>
+                <p>Launch Date: {photo.rover.launch_date}</p>
+                <div className='button' ><Like/></div>
                 </div>
              </div>
             </article>
