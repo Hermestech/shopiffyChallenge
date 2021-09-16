@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import PhotoList from './PhotoList'
+import './styles/AnotherPhotos.css'
 
 const AnotherPhotos = () => {
     const [photos, setPhotos] = useState([]);
@@ -13,7 +14,7 @@ const AnotherPhotos = () => {
             try{
                 setIsLoading(true);
                 const response = await axios.get(
-            `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=${page}&api_key=DEMO_KEY`
+            `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=${page}&api_key=an0ESP10moVKrfEiv8amDJ1HslO3a6j1KxWHpsb6`
             );
 
             setPhotos((photos) => [...photos, ...response.data.photos]);
@@ -37,7 +38,7 @@ const AnotherPhotos = () => {
             <PhotoList photos={photos}/>
             {errorMsg && <p className='errorMsg'>{errorMsg}</p>}
             <div className='load-more'>
-                <button onClick={loadMore}>
+                <button className='load-button' onClick={loadMore}>
                     {isLoading ? 'Loading...' : 'Load More'}
                 </button>
             </div>

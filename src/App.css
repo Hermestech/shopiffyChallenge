@@ -1,0 +1,4 @@
+body{
+        background: #232427 url(./components/styles/images/stars.png) repeat top center;
+        z-index:0;
+}
