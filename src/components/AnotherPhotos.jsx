@@ -7,7 +7,7 @@ const AnotherPhotos = () => {
     const [photos, setPhotos] = useState([]);
     const [page, setPage] = useState(0);
     const [isLoading, setIsLoading] = useState(false);
-    const [errorMsg, setErrorMsg] = useState('')
+    const [errorMsg, setErrorMsg] = useState('');
 
     useEffect(() => {
         const loadPhotos = async () => {
@@ -32,6 +32,10 @@ const AnotherPhotos = () => {
     const loadMore = () => {
         setPage((page) => page + 1 );
     }
+
+   
+
+
 
     return(
         <section className='container'>
