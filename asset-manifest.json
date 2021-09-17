@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Hermestech/shopiffyChallenge.git/static/css/main.88d9e7df.chunk.css",
-    "main.js": "/Hermestech/shopiffyChallenge.git/static/js/main.7551315d.chunk.js",
-    "main.js.map": "/Hermestech/shopiffyChallenge.git/static/js/main.7551315d.chunk.js.map",
-    "runtime-main.js": "/Hermestech/shopiffyChallenge.git/static/js/runtime-main.00dabd95.js",
-    "runtime-main.js.map": "/Hermestech/shopiffyChallenge.git/static/js/runtime-main.00dabd95.js.map",
-    "static/js/2.6b78e6f8.chunk.js": "/Hermestech/shopiffyChallenge.git/static/js/2.6b78e6f8.chunk.js",
-    "static/js/2.6b78e6f8.chunk.js.map": "/Hermestech/shopiffyChallenge.git/static/js/2.6b78e6f8.chunk.js.map",
-    "index.html": "/Hermestech/shopiffyChallenge.git/index.html",
-    "static/css/main.88d9e7df.chunk.css.map": "/Hermestech/shopiffyChallenge.git/static/css/main.88d9e7df.chunk.css.map",
-    "static/js/2.6b78e6f8.chunk.js.LICENSE.txt": "/Hermestech/shopiffyChallenge.git/static/js/2.6b78e6f8.chunk.js.LICENSE.txt",
-    "static/media/Background.css": "/Hermestech/shopiffyChallenge.git/static/media/clouds.655c9c06.png",
-    "static/media/App.css": "/Hermestech/shopiffyChallenge.git/static/media/stars.90c266f7.png"
+    "main.css": "/shopiffyChallenge/static/css/main.9ebf04b0.chunk.css",
+    "main.js": "/shopiffyChallenge/static/js/main.7551315d.chunk.js",
+    "main.js.map": "/shopiffyChallenge/static/js/main.7551315d.chunk.js.map",
+    "runtime-main.js": "/shopiffyChallenge/static/js/runtime-main.46e0f506.js",
+    "runtime-main.js.map": "/shopiffyChallenge/static/js/runtime-main.46e0f506.js.map",
+    "static/js/2.6b78e6f8.chunk.js": "/shopiffyChallenge/static/js/2.6b78e6f8.chunk.js",
+    "static/js/2.6b78e6f8.chunk.js.map": "/shopiffyChallenge/static/js/2.6b78e6f8.chunk.js.map",
+    "index.html": "/shopiffyChallenge/index.html",
+    "static/css/main.9ebf04b0.chunk.css.map": "/shopiffyChallenge/static/css/main.9ebf04b0.chunk.css.map",
+    "static/js/2.6b78e6f8.chunk.js.LICENSE.txt": "/shopiffyChallenge/static/js/2.6b78e6f8.chunk.js.LICENSE.txt",
+    "static/media/Background.css": "/shopiffyChallenge/static/media/clouds.655c9c06.png",
+    "static/media/App.css": "/shopiffyChallenge/static/media/stars.90c266f7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.00dabd95.js",
+    "static/js/runtime-main.46e0f506.js",
     "static/js/2.6b78e6f8.chunk.js",
-    "static/css/main.88d9e7df.chunk.css",
+    "static/css/main.9ebf04b0.chunk.css",
     "static/js/main.7551315d.chunk.js"
   ]
 }
