@@ -12,9 +12,9 @@ const PhotoCard = ({photo}) => {
                 <div className='content'>
                 <img src={photo.img_src} alt="" />
                 <h2>{photo.camera.name}</h2>                
-                <p>Date: {photo.earth_date}</p>
-                <p>Rover: {photo.rover.name}</p>
-                <p>Status: {photo.rover.status}</p>
+                <h4>{photo.rover.name}</h4>
+                <p>{photo.rover.status}</p>
+                <h4>{photo.earth_date}</h4>
                 <p>Launch Date: {photo.rover.launch_date}</p>
                 <div className='button' ><Like/></div>
                 </div>
